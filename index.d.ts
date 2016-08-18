@@ -4,7 +4,7 @@
 
 declare module "bases" {
 
-	class Bases {
+	interface Bases {
 		
 		toAlphabet(num: number, alphabet: string): string;
 
