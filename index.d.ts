@@ -4,7 +4,7 @@
 
 declare module "bases" {
 
-	interface Bases {
+	export interface Bases {
 		
 		toAlphabet(num: number, alphabet: string): string;
 
@@ -23,5 +23,5 @@ declare module "bases" {
 		LETTERS_UPPERCASE: string;
 
 	}
-	export = Bases; 
+
 }
