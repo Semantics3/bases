@@ -1,0 +1,7 @@
+{
+	"name": "bases",
+	"global": true,
+	"files": [
+		"index.d.ts"
+	]
+}
