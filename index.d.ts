@@ -10,7 +10,9 @@ declare module "bases" {
 
 		fromAlphabet(str: string, alphabet: string): number;
 
-		toBase(num: number, base: number);
+		toBase(num: number, base: number): string;
+
+		fromBase(str: string, base:number): number;
 
 		KNOWN_ALPHABETS: any;
 
