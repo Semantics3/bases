@@ -12,16 +12,13 @@ declare module "bases" {
 
 		toBase(num: number, base: number);
 
-	}
-	namespace base {
+		KNOWN_ALPHABETS: any;
 
-		type NUMERALS: string;
-		
-		type LETTERS_LOWERCASE: string;
+		NUMERALS: string;
 
-		type LETTERS_UPPERCASE: string;
+		LETTERS_LOWERCASE: string;
 
-		type KNOWN_ALPHABETS: any;
+		LETTERS_UPPERCASE: string;
 
 	}
 	export = Bases; 
