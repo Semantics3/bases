@@ -4,24 +4,20 @@
 
 declare module "bases" {
 
-	export interface Bases {
-		
-		toAlphabet(num: number, alphabet: string): string;
+		export function toAlphabet(num: number, alphabet: string): string;
 
-		fromAlphabet(str: string, alphabet: string): number;
+		export function fromAlphabet(str: string, alphabet: string): number;
 
-		toBase(num: number, base: number): string;
+		export function toBase(num: number, base: number): string;
 
-		fromBase(str: string, base:number): number;
+		export function fromBase(str: string, base:number): number;
 
-		KNOWN_ALPHABETS: any;
+		export let KNOWN_ALPHABETS: any;
 
-		NUMERALS: string;
+		export let NUMERALS: string;
 
-		LETTERS_LOWERCASE: string;
+		export let LETTERS_LOWERCASE: string;
 
-		LETTERS_UPPERCASE: string;
-
-	}
+		export let LETTERS_UPPERCASE: string;
 
 }
